@@ -1,0 +1,66 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size:50px ;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: tomato;
+
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.hw{
+    width:50%;
+    padding-left: 5%;
+    
+}
+.hw img{
+    width: 60%;
+}
+.lb{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    font-weight:700;
+
+}
+.tb{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.db{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.exp{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    widt:100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius:10px ;
+    border-left:7px solid tomato;
+}
+#junior-devoloper{
+    border-left: 7px solid blue ;
+}
+footer{
+    text-align: center;
+}
+
